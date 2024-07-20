@@ -10,8 +10,13 @@ function drop(e) {
     parent.classList.toggle('bg-ac')
     dd.querySelector('p').classList.toggle('white-font')
     dd.querySelector('p').classList.toggle('black-font')
-    dd.querySelector('.dif-bg').classList.toggle('dif-act')
-    dd.querySelector('.dif-cis').classList.toggle('dif-act-c')
+    try {
+        dd.querySelector('.dif-cis').classList.toggle('dif-act-c')
+        dd.querySelector('.dif-bg').classList.toggle('dif-act')
+    } catch (error) {
+        
+    }
+   
     dd.querySelector('.dif-row').classList.toggle('row-act')
     parent.querySelector('.difference_dropdown_add').classList.toggle('invs')
 }
