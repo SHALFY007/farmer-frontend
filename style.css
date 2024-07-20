@@ -714,3 +714,387 @@ body {
     display: flex;
     gap: 3.13vw;
 }
+
+.difference_mobile {
+    display: none;
+}
+
+@media (max-width: 769px) {
+    .container {
+        width: 95.31vw;
+    }
+
+    .top_section {
+        background: url('./img/bg-lap.png');
+        min-height: 133.59vw;
+        background-position: bottom;
+    }
+
+
+.logo {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 3.13vw;
+    height: 3.13vw;
+    left: 0;
+}
+
+.inter-r {
+    font-family: 'inter-r';
+    font-weight: 400;
+}
+
+.font-24 {
+    font-size: 3.13vw;
+}
+
+.font-60 {
+    font-size: 4.69vw;
+}
+
+.font-32 {
+    font-size: 4.17vw;
+}
+
+.font-28 {
+    font-size: 2.34vw;
+}
+
+.font-20,
+.font-20-l {
+    font-size: 1.7vw;
+}
+
+.font-36 {
+    font-size: 2.69vw;
+}
+
+.font-72 {
+    font-size: 7.03vw;
+}
+
+.lh-36 {
+    line-height: 4.69vw;
+}
+
+
+.lh-28 {
+    line-height: 3.65vw;
+}
+
+.lh-60 {
+    line-height: 7.81vw;
+}
+
+.lh-24 {
+    line-height: 3.13vw;
+}
+
+.lh-72 {
+    line-height: 7.38vw;
+}
+
+.mt-20 {
+    margin-top: 2.60vw;
+}
+
+.font-66 {
+    font-size: 8.39vw;
+    line-height: 10.59vw;
+}
+
+.top_section .row_btn {
+    display: none;
+}
+
+.main_btn {
+    background-size: cover;
+  margin-top: 1.67vw;
+  margin-bottom: 2.71vw;
+  padding: 4.3vw 8.54vw;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.logo {
+    width: 7.13vw;
+    height: 7.13vw;
+  }
+
+  .header_btn {
+    padding: 1.73vw 3.66vw;
+}
+
+.difference_dropdowns {
+    gap: 2.04vw;
+  justify-content: center;
+}
+
+.difference_dropdown_big {
+    width: 46.5vw;
+}
+
+.dif-svg {
+    width: 5.99vw;
+    height: 5.99vw;
+  }
+
+
+  #f1 {
+    background: url('./img/func1-l.png');
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+#f2 {
+    background: url('./img/func2-l.png');
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+#f3 {
+    background: url('./img/func3-l.png');
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+#f4 {
+    background: url('./img/func4-l.png');
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+#f5 {
+    background: url('./img/func5-l.png');
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+#f6 {
+    background: url('./img/func6-l.png');
+    background-repeat: repeat;
+    background-size: cover;
+
+}
+
+.func_big,
+.func_mid ,
+.func_mini {
+    width: 50%;
+    border-bottom: 0.5vw solid #383838;
+}
+
+.function_blocks {
+    grid-template-rows: 66vw 66vw 66vw ;
+    gap: 2.03vw;
+  }
+
+  .earn_block_top {
+    width: 30.73vw;
+    height: 30.73vw;
+    position: relative;
+  }
+
+  .dif-row {
+    width: 2.86vw;
+    height: 1.69vw;
+  }
+
+  .earn-row {
+    top: 27vw;
+  }
+
+  .row_btn {
+    width: 5.86vw;
+    height: 5.86vw;
+  }
+
+  .mw-334 {
+    max-width: 30.86vw;
+  }
+
+  .tarif_block {
+    width: 46.88vw;
+    height: 35.94vw;
+  }
+
+  .tarif_top {
+    width: 100%;
+    height: 17.83vw;
+    gap: 0;
+  }
+
+  .tarif_price {
+    gap: 0.5vw;
+  }
+
+  .tarif_btn {
+    height: 5.56vw;
+  }
+
+  .team_img {
+    width: 22.66vw;
+    height: 22.66vw;
+  }
+
+  .team_slide_add {
+    margin-top: 6.53vw;
+  }
+
+  .partners {
+    grid-template-rows: 22.4vw 22.4vw;
+  }
+
+  .difference_dropdown_big {
+    width: 100%;
+  }
+
+  .footer_logo {
+    width: 6.13vw;
+    height: 6.13vw;
+  }
+}
+
+
+@media (max-width: 400px) {
+    .top_section {
+        background: url('./img/bg-ph.png');
+        min-height: 145.06vw;
+        background-position: bottom;
+    }
+    
+    .container {
+        width: 93.31vw;
+      }
+
+      .font-66 {
+        font-size: 7.39vw;
+        line-height: 9.59vw;
+      }
+
+      .header {
+        padding: 1.15vw 0;
+        margin-bottom: 14.94vw;
+      }
+
+      .main_btn {
+        margin-top: 4.67vw;
+        background-size: contain;
+        padding: 3.3vw 0;
+      }
+
+      .font-24 {
+        font-size: 5.13vw;
+      }
+      
+      .short_info {
+        padding-top: 22.22vw;
+        flex-direction: column;
+        margin-bottom: 27.78vw;
+      }
+
+      .font-60 {
+        font-size: 6.67vw;
+        line-height: 6.67vw;
+      }
+
+      .short_info p {
+        max-width: 100%;
+      }
+
+      .font-20-l {
+        font-size: 5.56vw;
+      }
+
+      .difference-left,
+      .difference-right {
+        display: none;
+      }
+
+      .difference_mobile {
+        display: flex;
+        flex-direction: column;
+        gap: 2.78vw;
+        width: 100%;
+      }
+
+      .font-28 {
+        font-size: 4.44vw;
+      }
+
+      .lh-28 {
+        font-size: 4.44vw;
+      }
+
+      .dif-svg {
+        width: 10.56vw;
+        height: 10.56vw;
+      }
+
+      .font-20 {
+        font-size: 4.44vw;
+      }
+
+      .lh-24 {
+        line-height: 5.56vw;
+      }
+
+      .function_blocks {
+        grid-template-rows: 300vw 300vw 300vw;
+        gap: 2.03vw;
+      }
+
+      .function_block_step {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .func_big, .func_mid, .func_mini {
+        width: 100%;
+        border: 0.5vw solid #383838;
+        background-position: center !important;
+    background-position-y: initial !important;
+      }
+
+      .func_block {
+        height: 149.44vw;
+      }
+
+      #f1 {
+        background: url('./img/func1-p.png');
+        background-size: cover;
+    }
+    
+    #f2 {
+        background: url('./img/func2-p.png');
+        background-size: cover;
+    }
+    
+    #f3 {
+        background: url('./img/func3-p.png');
+        background-size: cover;
+    }
+    
+    #f4 {
+        background: url('./img/func4-p.png');
+        background-size: cover;
+    }
+    
+    #f5 {
+        background: url('./img/func5-p.png');
+        background-size: cover;
+    }
+    
+    #f6 {
+        background: url('./img/func6-p.png');
+        background-size: cover;
+    
+    }
+
+    .func_block {
+        padding: 4.44vw;
+        
+      }
+
+    }
