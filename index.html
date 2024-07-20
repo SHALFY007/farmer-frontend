@@ -8,6 +8,7 @@
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -15,11 +16,36 @@
         <header class="header">
             <div class="container header_container flex">
                 <img src="./img/logo.png" alt="logo" class="logo">
-                <a href="#" class="proxima-r font-24 black-font">Главная</a>
-                <a href="#" class="proxima-r font-24 black-font">Функционал</a>
-                <button class="header_btn">
-                    <span class="proxima-r font-24 black-font">Тарифы</span>
-                </button>
+                <a href="#main" class="proxima-r font-24 black-font head-d">Главная</a>
+                <a href="#fanc" class="proxima-r font-24 black-font head-d">Функционал</a>
+                <a href="#tarif">
+                    <button class="header_btn">
+                        <span class="proxima-r font-24 black-font">Тарифы</span>
+                    </button>
+                </a>
+                <div class="menu">
+                    <div class="container">
+                        <div class="burger-menu">
+                            <div class="burger-menu-mini">
+                                <img src="./img/row-b.png" alt="">
+                                <a href="#main" class="pixel_b font-b black-font">ГЛАВНАЯ</a>
+                            </div>
+                            <div class="burger-menu-mini">
+                                <img src="./img/row-b.png" alt="">
+                                <a href="#fanc" class="pixel_b font-b black-font">ФУНКЦИОНАЛ</a>
+                            </div>
+                            <div class="burger-menu-mini">
+                                <img src="./img/row-b.png" alt="">
+                                <a href="#tarif" class="pixel_b font-b black-font">ТАРИФЫ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                  <button class="hamburger">
+                    <!-- material icons https://material.io/resources/icons/ -->
+                    <i class="menuIcon material-icons">menu</i>
+                    <i class="closeIcon material-icons">close</i>
+                  </button>
             </div>
         </header>
         <div class="container">
@@ -39,7 +65,7 @@
     </section>
     <section class="home_section">
         <div class="container">
-            <div class="short_info">
+            <div class="short_info" id="main">
                 <h2 class="pixel-b font-60 white-font">ФАРМИЛКА</h2>
                 <p class="font-32 proxima-r white-font font-20-l">Это полноценный хаб для криптана любого уровня. Более 16 различных авторских инструментов, разработанных командой Фармера и нашим приватным комьюнити изначально для личного пользования! Фармилка призвана закрывать потребности его участников и максимально упрощать процесс обучения, коммуникаций и заработка в крипте и не только.</p>
             </div>
@@ -345,7 +371,7 @@
                 </div>
                 
             </div>
-            <div class="privatka">
+            <div class="privatka" id="fanc">
                 <h2 class="pixel-b font-60 white-font lh-60">ФУНКЦИОНАЛ<br>ПРИВАТКИ</h2>
                 <div class="function_blocks">
                     <div class="function_block_step">
@@ -532,6 +558,54 @@
             </div>
             <div class="review">
                 <h2 class="pixel-b font-60 white-font lh-60 t-center">ОТЗЫВЫ НАШИХ <br>УЧЕНИКОВ</h2>
+                <div class="reviews_mobile">
+                    <div class="swiper_mobile">
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                              <div class="review_slide">
+                                <p class="pixel-b font-36 lh-36 blue-font mw-288">@phaarmony</p>
+                                <div class="box">
+                                    <img class="review-img" src="./img/review1.jpeg" alt="">
+                                </div>
+                                <p class="inter-r font-20 lh-24 black-font">От крипты я был далек и это всё для меня было в новинку. Когда увидел набор в Фармилку, решил оплатить сразу 3 месяца. В итоге 2 из 3 месяцев занимался только абузом, который в подробностях мне расписал и помог один из ребят в чате. На этом же абузе окупил Фармилку с лихвой и себе забрал. Отдельного внимания стоят пулы и складчины в проекты. За эти 3 месяца не участвовал, о чем сейчас жалею, ведь все складчины были прибыльными, пока не одного минуса.</p>
+
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="review_slide">
+                                    <p class="pixel-b font-36 lh-36 blue-font mw-288">@konstantin_get</p>
+                                    <div class="box">
+                                        <img class="review-img" src="./img/review2.jpeg" alt="">
+                                    </div>
+                                    <p class="inter-r font-20 lh-24 black-font">Фармилки это очень крутая экосистема. Различные направления разбиты на отдельные каналы, множество различных инструментов для работы. Находясь в Фармилке, можно смело выходить из других каналов, ведь здесь собирается вся информация из мира крипты, фильтруется и разбивается на направления. Также есть возможность для собственного роста по иерархии от простого пользователя до полноценного члена команды Фармера. </p>
+    
+                                  </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="review_slide">
+                                    <p class="pixel-b font-36 lh-36 blue-font mw-288">@russel_eth</p>
+                                    <div class="box">
+                                        <img class="review-img" src="./img/review3.jpeg" alt="">
+                                    </div>
+                                    <p class="inter-r font-20 lh-24 black-font">Два месяца я в Фармилке и, в первый же месяц я окупил год. До того как я присоединился, я думал, что трата денег на Фармилку это необоснованный расход, что можно всю информацию при желании найти в интернете. Да возможно это так (Хотя я даже не знаю сколько каналов и как мониторить надо чтобы получать постоянно столько инфы..). Сама Фармилка это инструмент, который можно настроить под себя, и пользоваться тем, что нужно.</p>
+    
+                                  </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="review_slide">
+                                    <p class="pixel-b font-36 lh-36 blue-font mw-288">@devnex</p>
+                                    <div class="box">
+                                        <img class="review-img" src="./img/review4.jpeg" alt="">
+                                    </div>
+                                    <p class="inter-r font-20 lh-24 black-font">Первым делом Фармилка это дружный коллектив, который совместными усилиями добивается прибыльных историй. Здесь вы сможете найти не только списки проектов, которые нужно делать, но и множество инструментов для облегчения себе работы. Весь сок концентрируется именно здесь, в очень простой и понятной форме. Если вдруг возникают какие то вопросы, то команда Фармилки всегда сможет вам помочь или что то подсказать.</p>
+    
+                                  </div>
+                            </div>
+                            
+                          </div>
+                    </div>
+                </div>
                 <div class="reviews">
                     <hr>
                     <div class="review_block">
@@ -580,12 +654,12 @@
                     <hr>
                 </div>
             </div>
-            <div class="tarif">
+            <div class="tarif" id="tarif">
                 <h2 class="pixel-b font-60 white-font lh-60 t-center">ТАРИФЫ</h2>
                 <div class="tarifs">
                     <div class="tarif_block">
                         <div class="tarif_top">
-                            <p class="pixel-b font-28 lh-28 black-font t-center">Базовый</p>
+                            <p class="pixel-b font-28 lh-28 black-font t-center t-center-new">Базовый</p>
                             <div class="tarif_price">
                                 <h3 class="pixel-b font-72 black-font lh-72">130$</h3>
                                 <div class="tarif_line"></div>
@@ -598,7 +672,7 @@
                     </div>
                     <div class="tarif_block">
                         <div class="tarif_top">
-                            <p class="pixel-b font-28 lh-28 black-font t-center">Продвинутый</p>
+                            <p class="pixel-b font-28 lh-28 black-font t-center t-center-new">Продвинутый</p>
                             <div class="tarif_price">
                                 <h3 class="pixel-b font-72 black-font lh-72">300$</h3>
                                 <div class="tarif_line"></div>
@@ -862,23 +936,26 @@
         const swiper2 = new Swiper('.team_swiper', {
             direction: 'horizontal',
                 // loop: true,
-                slidesPerView: 3,
-                initialSlide: 1,
+                slidesPerView: 1,
                 centeredSlides: true,
                 
+                initialSlide: 1,
                 speed: 400,
-                spaceBetween: 50,
-                770: {
+                spaceBetween: -50,
+                breakpoints: {
+                    401: {
+                        slidesPerView: 3,
+                        initialSlide: 1,
+                        spaceBetween: 50,
+                    },
+                    770: {
                     slidesPerView: 4,
+                    initialSlide: 1,
                     spaceBetween: 100,
                 },
+                },
+ 
 
-        // If we need pagination
-        //   pagination: {
-        //     el: '.swiper-pagination',
-        //   },
-
-        // Navigation arrows
         navigation: {
             nextEl: '.next-team',
             prevEl: '.prev-team',
@@ -890,11 +967,17 @@
         // Optional parameters
                 direction: 'horizontal',
                 // loop: true,
-                slidesPerView: 3,
+                slidesPerView: 2,
+                // centeredSlides: true,
+                speed: 400,
+                spaceBetween: 150,
+                breakpoints: {
+                401: {
+                    slidesPerView: 3,
                 // centeredSlides: true,
                 speed: 400,
                 spaceBetween: 50,
-                breakpoints: {
+                }    ,
                 // mobile + tablet - 320-990
                 770: {
                     slidesPerView: 4,
@@ -917,7 +1000,16 @@
         });
         // })
 
+        const swiper_mobile = new Swiper('.swiper_mobile', {
+            direction: 'horizontal',
+                // loop: true,
+                slidesPerView: 1,
+                centeredSlides: true,
+                speed: 400,
+                spaceBetween: -5,
 
+                
+        })
     </script>
 </body>
 </html>

@@ -719,6 +719,18 @@ body {
     display: none;
 }
 
+.reviews_mobile {
+    display: none;
+}
+
+.menu {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+}
+
 @media (max-width: 769px) {
     .container {
         width: 95.31vw;
@@ -1024,7 +1036,7 @@ body {
       }
 
       .lh-28 {
-        font-size: 4.44vw;
+        line-height: 4.44vw;
       }
 
       .dif-svg {
@@ -1037,7 +1049,7 @@ body {
       }
 
       .lh-24 {
-        line-height: 5.56vw;
+        line-height: 5vw;
       }
 
       .function_blocks {
@@ -1097,4 +1109,267 @@ body {
         
       }
 
+      .earn {
+        margin-top: 27.78vw;
+      }
+
+      .t-center {
+        text-align: start;
+      }
+
+      .earn_block_top {
+        width: 62.78vw;
+        height: 62.78vw;
+      }
+
+      .earn_block_bottom {
+        width: 62.78vw;
+        height: 62.78vw;
+        margin-top: 5vw;
+      }
+
+      .earn-row {
+        top: 57vw;
+      }
+      .dif-row {
+        width: 5.56vw;
+        height: 3.33vw;
+      }
+
+      .row_btn {
+        width: 9.86vw;
+        height: 9.86vw;
+      }
+
+      .row_btn img {
+        width: 5.56vw;
+        height: 3.33vw;
+      }
+
+      .review {
+        margin-top: 27.78vw;
+      }
+
+      .reviews_mobile {
+        margin-top: 4.44vw;
+        display: block;
+      }
+
+      .review_slide {
+        width: 83.33vw;
+        height: 125.28vw;
+        padding: 4.44vw;
+        display: flex;
+        flex-direction: column;
+        gap: 3.33vw;
+        background: #fff;
+      }
+
+      .box {
+        position: relative;
+        width: 100%;
+        min-height: 21.11vw !important;
+        overflow: hidden;
+        border: 2px solid #272727
+      }
+
+      .review-img {
+        bottom: -25vw;
+        position: absolute;
+        object-position: center;
+        width: 100%;
+        height: auto;
+      }
+
+      .font-36 {
+        font-size: 5vw;
+      }
+
+      .reviews {
+        display: none;
+      }
+
+      .tarif {
+        margin-top: 27.78vw;
+      }
+
+      .tarifs {
+        grid-template-columns: 1fr;
+        gap: 1.04vw;
+        margin-top: 1.67vw;
+      }
+
+      .tarif_block {
+        width: 100%;
+        height: 64.44vw;
+      }
+
+      .tarif_top {
+        width: 100%;
+        height: 36.83vw;
+        gap: 0;
+      }
+
+      .tarif_btn {
+        height: 11.56vw;
+      }
+
+      .t-center-new {
+        text-align: center;
+      }
+
+      .font-72 {
+        font-size: 11.03vw;
+      }
+
+      .lh-72 {
+        line-height: 19.38vw;
+      }
+
+      .swiper-slide-active img {
+        transform: scale(1);
+        opacity: 1;
+      }
+
+      .team_swiper .swiper-slide-active img {
+        transform: scale(1.5) !important;
+        opacity: 1;
+      }
+
+      .team_img {
+        width: 51.11vw;
+        height: 51.11vw;
+      }
+
+      .team_slide_add {
+        margin-left: 0;
+        margin-top: 18.53vw;
+        display: none;
+        flex-direction: column;
+        gap: 0.63vw;
+        width: 100%;
+      }
+
+      .team-buttons {
+        position: absolute;
+        bottom: -12vw;
+        right: 0;
+        display: flex;
+        gap: 1.67vw;
+      }
+
+      .partner {
+        margin-top: 33.33vw;
+      }
+
+      .partners {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 28.89vw 28.89vw 28.89vw;
+      }
+
+      .answears {
+        margin-top: 27.78vw;
+      }
+
+      .footer_container {
+        padding: 3.02vw 16.15vw 7.14vw 0;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 4.44vw;
+      }
+
+      .footer_logo {
+        width: 11.11vw;
+        height: 11.11vw;
+      }
+
+      .social_block {
+        gap: 4.44vw;
+      }
+
+      .social_blocks {
+        display: flex;
+        flex-direction: column;
+        gap: 4.44vw;
+      }
+
+      .logo {
+        width: 10.13vw;
+        height: 10.13vw;
+      }
+
+      .head-d {
+        display: none;
+      }
+
+      .hamburger {
+        z-index: 100;
+        top: 1rem;
+        right: 1rem;
+        padding: 4px;
+        border: black solid 1px;
+        background: white;
+        cursor: pointer;
+        background: none;
+        border: none;
+      }
+
+      .closeIcon {
+        display: none;
+      }
+      
+      .menu {
+        position: absolute;
+        transform: translateY(-100%);
+        transition: transform 0.2s;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 99;
+        background: white;
+        height: 38.61vw;
+        color: white;
+        list-style: none;
+        padding-top: 4rem;
+        width: 100vw;
+      }
+
+      .showMenu {
+        transform: translateY(0);
+      }
+      
+      .burger-menu {
+        display: flex;
+        flex-direction: column;
+        gap: 2.81vw;
+      }
+
+      .burger-menu-mini {
+        display: flex;
+        gap: 2.81vw;
+        align-items: center;
+      }
+      
+      .burger-menu-mini img {
+        width: 1.58vw;
+        height: 2.64vw;
+      }
+
+      .font-b {
+        font-size: 3.16vw;
+      }
+
+      .header_container {
+        justify-content: end;
+      }
+
+      .hamburger {
+        display: block;
+      }
+
+      .menu {
+        display: block;
+      }
     }
