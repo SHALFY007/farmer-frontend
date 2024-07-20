@@ -463,15 +463,17 @@ body {
     width: 100%;
 }
 
-.next {
+.next,
+.next-team  {
     transform: rotate(270deg) !important;
 }
 
-.prev {
+.prev,
+.prev-team {
     transform: rotate(90deg);
 }
 
-.review {
+.review{
     margin-top: 9.38vw;
 }
 
@@ -576,4 +578,46 @@ body {
 
 .mw-288 {
     width: 15vw;
+}
+
+.team {
+    margin-top: 9.38vw;
+    padding-bottom: 4.06vw;
+    position: relative;
+}
+
+.team_swiper {
+    margin-top: 4.74vw;
+}
+
+.team_img {
+    width: 11.25vw;
+    height: 11.25vw;
+    opacity: 0.6;
+}
+
+.swiper-slide-active img {
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.team_slide_add {
+    margin-left: -3vw;
+    margin-top: 4.53vw;
+    display: none;
+    flex-direction: column;
+    gap: 0.63vw;
+    width: 24.79vw;
+}
+
+.swiper-slide-active .team_slide_add {
+    display: flex;
+}
+
+.team-buttons {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    gap: 1.67vw;
 }

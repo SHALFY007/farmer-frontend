@@ -248,7 +248,7 @@
             </div>
             <div class="earn">
                 <h2 class="pixel-b font-60 white-font lh-60 t-center">Сколько вы бы заработали, если бы <br>инвестировали 100$ в пулы с нами</h2>
-                <div class="swiper">
+                <div class="swiper earn-swiper">
                     <!-- Additional required wrapper -->
                     <div class="swiper-wrapper">
                       <!-- Slides -->
@@ -464,6 +464,94 @@
                     </div>
                 </div>
             </div>
+            <div class="team">
+                <h2 class="pixel-b font-60 white-font lh-60">Команда</h2>
+                <div class="team_swiper swiper">
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                          <div class="team_slide">
+                            <img src="./img/team1.jpeg" alt="" class="team_img">
+                            <div class="team_slide_add">
+                                <h5 class="pixel-b font-28 lh-28 white-font">Фармер</h5>
+                                <p class="inter-r white-font font-20 lh-24">Основатель всей Экосистемы. Курирует всех и вся. Мозг всего сообщества, который задаёт вектор развития.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team_slide">
+                                <img src="./img/team2.jpeg" alt="" class="team_img">
+                                <div class="team_slide_add">
+                                    <h5 class="pixel-b font-28 lh-28 white-font">Фармер</h5>
+                                    <p class="inter-r white-font font-20 lh-24">Основатель всей Экосистемы. Курирует всех и вся. Мозг всего сообщества, который задаёт вектор развития.</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team_slide">
+                                <img src="./img/team3.jpeg" alt="" class="team_img">
+                                <div class="team_slide_add">
+                                    <h5 class="pixel-b font-28 lh-28 white-font">Фармер</h5>
+                                    <p class="inter-r white-font font-20 lh-24">Основатель всей Экосистемы. Курирует всех и вся. Мозг всего сообщества, который задаёт вектор развития.</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team_slide">
+                                <img src="./img/team4.jpeg" alt="" class="team_img">
+                                <div class="team_slide_add">
+                                    <h5 class="pixel-b font-28 lh-28 white-font">Фармер</h5>
+                                    <p class="inter-r white-font font-20 lh-24">Основатель всей Экосистемы. Курирует всех и вся. Мозг всего сообщества, который задаёт вектор развития.</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team_slide">
+                                <img src="./img/team5.jpeg" alt="" class="team_img">
+                                <div class="team_slide_add">
+                                    <h5 class="pixel-b font-28 lh-28 white-font">Фармер</h5>
+                                    <p class="inter-r white-font font-20 lh-24">Основатель всей Экосистемы. Курирует всех и вся. Мозг всего сообщества, который задаёт вектор развития.</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team_slide">
+                                <img src="./img/team6.jpeg" alt="" class="team_img">
+                                <div class="team_slide_add">
+                                    <h5 class="pixel-b font-28 lh-28 white-font">Фармер</h5>
+                                    <p class="inter-r white-font font-20 lh-24">Основатель всей Экосистемы. Курирует всех и вся. Мозг всего сообщества, который задаёт вектор развития.</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team_slide">
+                                <img src="./img/team7.jpeg" alt="" class="team_img">
+                                <div class="team_slide_add">
+                                    <h5 class="pixel-b font-28 lh-28 white-font">Фармер</h5>
+                                    <p class="inter-r white-font font-20 lh-24">Основатель всей Экосистемы. Курирует всех и вся. Мозг всего сообщества, который задаёт вектор развития.</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team_slide">
+                                <img src="./img/team8.jpeg" alt="" class="team_img">
+                                <div class="team_slide_add">
+                                    <h5 class="pixel-b font-28 lh-28 white-font">Фармер</h5>
+                                    <p class="inter-r white-font font-20 lh-24">Основатель всей Экосистемы. Курирует всех и вся. Мозг всего сообщества, который задаёт вектор развития.</p>
+                                </div>
+                              </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="team-buttons">
+                    <button class="row_btn prev-team">
+                        <img src="./img/row.png" alt="row">
+                    </button>
+                    <button class="row_btn next-team">
+                        <img src="./img/row.png" alt="row">
+                    </button>
+                  </div>
+            </div>
         </div>
     </section>
     
@@ -471,27 +559,52 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./app.js"></script>
     <script>
-        const swiper = new Swiper('.swiper', {
-  // Optional parameters
-        direction: 'horizontal',
-        // loop: true,
-        slidesPerView: 4,
-        speed: 400,
-        spaceBetween: 100,
+        const swipers = document.querySelectorAll(".swiper");
+        const swiper2 = new Swiper('.team_swiper', {
+            direction: 'horizontal',
+                // loop: true,
+                slidesPerView: 4,
+                centeredSlides: true,
+                speed: 400,
+                spaceBetween: 100,
 
-  // If we need pagination
-//   pagination: {
-//     el: '.swiper-pagination',
-//   },
+        // If we need pagination
+        //   pagination: {
+        //     el: '.swiper-pagination',
+        //   },
 
-  // Navigation arrows
-  navigation: {
-    nextEl: '.next',
-    prevEl: '.prev',
-  },
+        // Navigation arrows
+        navigation: {
+            nextEl: '.next-team',
+            prevEl: '.prev-team',
+        },
+        })
 
-  // And if we need scrollbar
-});
+        // swipers.forEach(value => {
+            const swiper = new Swiper('.earn-swiper', {
+        // Optional parameters
+                direction: 'horizontal',
+                // loop: true,
+                slidesPerView: 4,
+                // centeredSlides: true,
+                speed: 400,
+                spaceBetween: 100,
+
+        // If we need pagination
+        //   pagination: {
+        //     el: '.swiper-pagination',
+        //   },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.next',
+            prevEl: '.prev',
+        },
+
+        // And if we need scrollbar
+        });
+        // })
+
 
     </script>
 </body>
