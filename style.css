@@ -313,14 +313,20 @@ body {
 
 .func_big {
     width: 41.98vw;
+    border: 0.1vw solid #383838;
+
 }
 
 .func_mid {
     width: 35.83vw; 
+    border: 0.1vw solid #383838;
+
 }
 
 .func_mini {
     width: 29.69vw;
+    border: 0.1vw solid #383838;
+
 }
 
 .function_block_step {
@@ -368,6 +374,127 @@ body {
     background-repeat: repeat;
     background-size: cover;
 }
+
+#f7 {
+  background: url('./img/func7.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#f8 {
+  background: url('./img/func8.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#f9 {
+  background: url('./img/func9.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#f10 {
+  background: url('./img/func10.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#f11 {
+  background: url('./img/func11.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#f12 {
+  background: url('./img/func12.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#f13 {
+  background: url('./img/func13.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#f14 {
+  background: url('./img/func14.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#f15 {
+  background: url('./img/func15.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#f16 {
+  background: url('./img/func16.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#f17 {
+  background: url('./img/func17.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#f18 {
+  background: url('./img/func18.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#f19 {
+  background: url('./img/func19.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#f20 {
+  background: url('./img/func20.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#f21 {
+  background: url('./img/func21.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#f22 {
+  background: url('./img/func22.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#f23 {
+  background: url('./img/func23.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#f24 {
+  background: url('./img/func24.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#f25 {
+  background: url('./img/func25.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#f26 {
+  background: url('./img/func26.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
 
 .func_block {
     display: flex;
@@ -731,7 +858,30 @@ body {
     display: none;
 }
 
+.header_func {
+  background: #090909;
+  box-shadow: 0px 0px 68px 0px #FFFFFF0D inset;
+  margin-bottom: 0;
+  box-shadow: 0px 4px 4px 0px #00000026 inset;
+  
+}
+
+.main_func {
+  background: #000000;
+  padding-top: 7.71vw;
+  padding-bottom: 9.38vw;
+}
+
+.function_blocks_f {
+  grid-template-rows: repeat(13, 26.30vw);
+  margin-top: 1.67vw;
+}
+
 @media (max-width: 769px) {
+  .function_blocks_f {
+    grid-template-rows: repeat(13, 30.73vw);
+    margin-top: 1.67vw;
+  }
     .container {
         width: 95.31vw;
     }
@@ -890,15 +1040,140 @@ body {
 
 }
 
+#f7 {
+  background: url('./img/func7-l.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#f8 {
+  background: url('./img/func8-l.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#f9 {
+  background: url('./img/func9-l.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#f10 {
+  background: url('./img/func10-l.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#f11 {
+  background: url('./img/func11-l.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#f12 {
+  background: url('./img/func12-l.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#f13 {
+  background: url('./img/func13-l.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#f14 {
+  background: url('./img/func14-l.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#f15 {
+  background: url('./img/func15-l.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#f16 {
+  background: url('./img/func16-l.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#f17 {
+  background: url('./img/func17-l.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#f18 {
+  background: url('./img/func18-l.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#f19 {
+  background: url('./img/func19-l.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#f20 {
+  background: url('./img/func20-l.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#f21 {
+  background: url('./img/func21-l.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#f22 {
+  background: url('./img/func22-l.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#f23 {
+  background: url('./img/func23-l.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#f24 {
+  background: url('./img/func24-l.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#f25 {
+  background: url('./img/func25-l.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#f26 {
+  background: url('./img/func26-l.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
 .func_big,
 .func_mid ,
 .func_mini {
     width: 50%;
-    border-bottom: 0.5vw solid #383838;
+    border: 0.5vw solid #383838;
 }
 
 .function_blocks {
     grid-template-rows: 66vw 66vw 66vw ;
+    gap: 2.03vw;
+  }
+
+  .function_blocks_f {
+    grid-template-rows: repeat(13, 66vw)  ;
     gap: 2.03vw;
   }
 
@@ -970,6 +1245,13 @@ body {
 
 
 @media (max-width: 400px) {
+  .home_section {
+    overflow-x: hidden;
+  }
+
+  body {
+    
+  }
     .top_section {
         background: url('./img/bg-ph.png');
         min-height: 145.06vw;
@@ -978,6 +1260,7 @@ body {
     
     .container {
         width: 93.31vw;
+        overflow: hidden;
       }
 
       .font-66 {
@@ -1371,5 +1654,27 @@ body {
 
       .menu {
         display: block;
+        position: fixed;
+      }
+
+      .header_func {
+        margin-bottom: 0;
+        padding: 3vw 0;
+      }
+
+      .menu_func {
+        color: #fff;
+        width: 5vw;
+        height: 3.33vw;
+      }
+
+      .menu_f {
+        position: fixed;
+        background: #090909;
+      }
+
+      .close_b {
+        position: fixed;
+        right: 3vw;
       }
     }
